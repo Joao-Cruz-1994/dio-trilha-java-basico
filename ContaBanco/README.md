@@ -43,3 +43,14 @@ $ java ContaTerminal
 # Saída esperada no início:
 Por favor, digite o número da Conta !
 # ... e assim por diante
+```
+
+## 📚 Trilha de Aprendizado
+
+Este projeto faz parte do módulo de **Sintaxe Java** da trilha de cursos oferecidos pela **Digital Innovation One (DIO)**. É uma excelente oportunidade para aplicar os conceitos aprendidos e construir uma base sólida em programação Java.
+
+Agradeço à DIO pela qualidade do conteúdo e pela oportunidade de desenvolver habilidades práticas.
+
+---
+
+Desafio vencido por João Cruz ☕
