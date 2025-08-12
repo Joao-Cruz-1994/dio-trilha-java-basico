@@ -12,42 +12,27 @@ Criar um diagrama UML que represente as interfaces para cada funcionalidade (`Re
 O diagrama de classes a seguir ilustra a solução proposta, utilizando interfaces para definir o "contrato" de cada funcionalidade e a classe `iPhone` para centralizar a implementação de todas elas.
 ```mermaid
 classDiagram
-    direction LR
     class ReprodutorMusical {
-        <<interface>>
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
 
     class AparelhoTelefonico {
-        <<interface>>
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
 
     class NavegadorInternet {
-        <<interface>>
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
+        +exemploMetodo1()
+        +exemploMetodo2(String exemplo)
     }
 
     class iPhone {
-        +tocar()
-        +pausar()
-        +selecionarMusica(String musica)
-        +ligar(String numero)
-        +atender()
-        +iniciarCorreioVoz()
-        +exibirPagina(String url)
-        +adicionarNovaAba()
-        +atualizarPagina()
     }
 
-    iPhone ..|> ReprodutorMusical
-    iPhone ..|> AparelhoTelefonico
-    iPhone ..|> NavegadorInternet
-    ```
+    iPhone --> ReprodutorMusical
+    iPhone --> AparelhoTelefonico
+    iPhone --> NavegadorInternet
+```
+
 ### criado na sintaxe [Mermaid](https://mermaid.js.org/)
